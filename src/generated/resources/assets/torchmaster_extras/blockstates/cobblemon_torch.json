@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "torchmaster_extras:block/cobblemon_torch"
+    }
+  }
+}

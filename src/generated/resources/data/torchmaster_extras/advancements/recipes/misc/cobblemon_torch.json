@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_megatorch": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "torchmaster:megatorch"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "torchmaster_extras:cobblemon_torch"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_megatorch",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "torchmaster_extras:cobblemon_torch"
+    ]
+  },
+  "sends_telemetry_event": false
+}

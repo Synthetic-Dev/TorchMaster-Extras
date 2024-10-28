@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "torchmaster_extras:cobblemon_torch"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "torchmaster_extras:blocks/cobblemon_torch"
+}
